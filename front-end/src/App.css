@@ -1,6 +1,6 @@
 .tile {
   border-radius: 25px;
-  background-image: url(Emolga.jpg);
+  background-color: green;
   padding: 20px;
   width: 200px;
   height: 150px;
@@ -11,4 +11,76 @@
 
 }
 
-.sound_board{} 
+
+
+sound_board_title{
+  color: red;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+sound_board {
+
+}
+
+meme_title {
+  z-index: 1;
+
+}
+
+.tool_bar {
+  position: fixed;
+  top: 0;
+
+
+list-style: none;
+  margin: 0;
+
+  background: green;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.tool_bar a {
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.tool_bar a:hover {
+  background: darken(green, 2%);
+}
+
+@media all and (max-width: 800px) {
+  .tool_bar {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .tool_bar {
+    -webkit-flex-flow: column wrap;
+    flex-flow: column wrap;
+    padding: 0;
+  }
+
+  .tool_bar a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255,255,255,0.3);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+  }
+
+
+  .tool_bar li:last-of-type a {
+    border-bottom: none;
+  }
+}
