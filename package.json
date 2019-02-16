@@ -8,10 +8,10 @@
     "node": ">=8"
   },
   "repository": "https://github.com/Ferrise/Meme-Soundboard",
-  "main": "index.js",
+  "main": "back-end/index.js",
   "private": true,
   "scripts": {
-    "start": "nodejs index.js"
+    "start": "node back-end/index.js"
   },
   "dependencies": {
     "express": "4.16.4"
