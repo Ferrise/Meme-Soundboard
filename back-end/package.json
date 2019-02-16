@@ -1,0 +1,22 @@
+{
+  "name": "meme-soundboard",
+  "description": "A",
+  "version": "0.0.1",
+  "license": "Apache-2.0",
+  "author": "team meme",
+  "engines": {
+    "node": ">=8"
+  },
+  "repository": "https://github.com/Ferrise/Meme-Soundboard",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+  },
+  "dependencies": {
+    "express": "4.16.4"
+  },
+  "devDependencies": {
+
+  }
+}
