@@ -1,0 +1,14 @@
+.tile {
+  border-radius: 25px;
+  background-image: url(Emolga.jpg);
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+  cursor: pointer;
+  &.playing {
+    border: 5px blue;
+  }
+
+}
+
+.sound_board{} 
